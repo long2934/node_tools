@@ -1,0 +1,31 @@
+{
+  "name": "node_tools",
+  "version": "1.0.0",
+  "description": "Tools and functions for NodeJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/long2934/node_tools.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Tools"
+  ],
+  "author": "Long Zhou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/long2934/node_tools/issues"
+  },
+  "homepage": "https://github.com/long2934/node_tools#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-winston": "^4.2.0",
+    "pfx-to-pem": "^1.0.2",
+    "winston": "^3.3.3",
+    "winston-daily-rotate-file": "^4.5.5"
+  }
+}
